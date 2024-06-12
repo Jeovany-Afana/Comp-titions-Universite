@@ -1,0 +1,40 @@
+#timer{
+    font-size: 100px;
+    font-weight: bold;
+}
+#control>#startbtn{
+    background-color:green;
+    color:white;
+}
+#pausebtn{
+    background-color:rgb(35, 35, 36);
+    color:white;
+}
+#control>#resumebtn{
+    background-color:orange;
+    color:white;
+}
+#control>#resetbtn{
+    background-color:red;
+    color:white;
+}
+
+#field{
+
+    margin-top: 5%;
+    margin-left: 37%;
+    border: 8px solid #072a4d;
+    border-radius: 100px;
+    margin-right: 35%;
+    text-align: center;
+    
+}
+
+#minutes{
+    color:  #1E90FF;
+}
+
+#seconds{
+    color: red;
+}
+

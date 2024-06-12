@@ -1,0 +1,78 @@
+.imageToummy {
+    width: 15%;
+    height: 28%;
+   position: absolute;
+    left: 43%;
+    top: 2%;
+    border-radius: 50%;
+    border-style: groove;
+    border-color: blue;
+     border: 9px groove blue;
+     z-index: 4 !important;
+}
+
+
+
+#oeil1 {
+    border: 1px solid black;
+    width: 0.3%;
+    height: 0.6%;
+    border-radius: 60%;
+    position: absolute;
+    top: 12.3%;
+    left: 48.7%;
+    background-color: darkblue;
+    transition:1s ease;
+}
+
+#oeil2 {
+    border: 1px solid black;
+    width: 0.28%;
+    height: 0.6%;
+    border-radius: 60%;
+    position: absolute;
+    background-color: darkblue;
+    top: 12.3%;
+    left: 52%;
+    transition: 1s ease;
+}
+
+#bouche {
+    border: 1px solid darkblue;
+    width: 1.25%;
+    height: 0.5%;
+    position: absolute;
+    left: 49.8%;
+    top: 18%;
+    background-color: darkblue;
+    transition: 2s ease;
+    border-start-start-radius: 90%;
+    border-start-end-radius: 90%;
+    border-end-start-radius: 90%;
+    border-end-end-radius: 90%;
+}
+
+#cleinOeil1, #cleinOeil2 {
+    border: 1px solid #010164;
+    width: 0.98%; /*ICI ON AURA: 0.98%*/
+    height: 0%; /*ICI ON AURA: 2.2%*/
+    background-color: #010164;
+    position: absolute;
+    border-radius: 50%;
+    transition: 1s ease-in-out;
+    top: 11.7%;
+    border-radius: 30%;
+    border-start-start-radius: 50%;
+    border-start-end-radius: 50%;
+    opacity:0;
+}
+
+#cleinOeil2
+  {
+    left: 51.5%;
+}
+
+#cleinOeil1
+  {
+    left:48.5%;
+}
